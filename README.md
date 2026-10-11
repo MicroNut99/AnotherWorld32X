@@ -4,10 +4,18 @@ This is a port of Eric Chahi's **Another World** (1991; *Out of This World* in N
 **Sega 32X**. It plays the original game from the original DOS data files, using Gregory Montoir's **rawgl**
 engine, and it runs as a 4 MB 32X cartridge ROM (tested in the Fusion emulator).
 
-**It is only a port.** Nothing in the game has been added, improved or remastered: same graphics (the
-original 320×200, 16-colour look), same sounds and music, same levels, same passwords. The goal was to
-run the existing game faithfully on the 32X, nothing more. The few differences from the PC version
-come from the hardware: sound is mono, and the game is played with a pad instead of a keyboard.
+## Why this exists
+
+**This is an exercise, not an improvement.** The point of this project was to practise building a
+Sega 32X game from source code that is already available: taking an existing engine (rawgl), making it
+run on the 32X's two SH2 processors, and checking the result against the original.
+
+**The game gains nothing from running on the 32X.** It does not look, sound or play better than on a PC,
+an Amiga or any other version. Nothing has been added, improved or remastered: same graphics (the original
+320×200, 16-colour look), same sounds and music, same levels, same passwords. If you just want to play
+Another World, any of the existing versions is at least as good. The only differences from the PC version
+come from the hardware, and they are small losses rather than gains: sound is mono, and the game is played
+with a pad instead of a keyboard.
 
 The game data is **not** included. You need your own copy of the DOS version.
 
