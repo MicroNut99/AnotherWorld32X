@@ -1,0 +1,1 @@
+Put the DOS game files here: MEMLIST.BIN and BANK01 ... BANK0D (not included).

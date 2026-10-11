@@ -1,0 +1,23 @@
+# game data is not included - use your own copy
+data/*
+!data/PUT_GAME_FILES_HERE.txt
+# build output
+build/
+ANOTHERWORLD32X.32x
+build_log.txt
+host/obj/
+host/obj32/
+host/rawgl_host
+host/rawgl_host32x
+host/aw_pack
+host/test_padmap
+port/mars/obj/
+port/mars/*.o
+port/mars/*.elf
+port/mars/*.bin
+port/mars/*.map
+cart/*.o
+cart/*.elf
+cart/*.map
+cart/cart_md.bin
+cart/cd.bin
