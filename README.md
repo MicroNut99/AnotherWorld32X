@@ -4,6 +4,19 @@ This is a port of Eric Chahi's **Another World** (1991; *Out of This World* in N
 **Sega 32X**. It plays the original game from the original DOS data files, using Gregory Montoir's **rawgl**
 engine, and it runs as a 4 MB 32X cartridge ROM (tested in the Fusion emulator).
 
+## Build in one command
+
+With the Sega toolchains in `/opt/toolchains/sega`, the tools installed once (Ubuntu / WSL:
+`sudo apt install g++ make zlib1g-dev python3 python3-pil`), D32XR v3.3 built next to this folder
+(`../d32xr-v33`, see [Building](#building)) and the DOS game files in `data/`:
+
+```
+./build.sh 2>&1 | tee build_log.txt
+```
+
+It writes `ANOTHERWORLD32X.32x`. Everything else - other data folders, the start part, every switch - is
+under [Building](#building).
+
 ## Why this exists
 
 **This is an exercise, not an improvement.** The point of this project was to practise building a
