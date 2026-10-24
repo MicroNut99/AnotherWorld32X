@@ -1,3 +1,12 @@
+**Note (Another World 32X):** this is rawgl's own README, for its PC version. In this repository the
+engine is also built for the Sega 32X; its changes are all inside `#ifdef RAWGL32X` and leave this PC
+version as it was. To build the 32X cartridge, its switches and the PC test builds, see
+[Building](../README.md#building) in the port's README.
+
+rawgl's PC version needs SDL2, SDL2_mixer, OpenGL, zlib and libmt32emu: `make` in this folder (`rawgl-master/Makefile`,
+switches `-DBYPASS_PROTECTION` and `-DUSE_GL` set there) gives `rawgl`, run as below. It has not been
+tried in this repository.
+
 
 # raw(gl) - Another World Interpreter
 
